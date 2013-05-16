@@ -1,0 +1,5 @@
+#!/bin/sh
+git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+cd ~/cfg_vim/
+cat ~/cfg_vim/vimrcs/vimrc.vim > ~/.vimrc
+echo "Installed the Basic Vim configuration successfully! Enjoy :-)"
