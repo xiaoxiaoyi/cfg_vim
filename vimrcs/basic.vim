@@ -161,6 +161,8 @@ set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
 " 菜单栏设置
 source $VIMRUNTIME/delmenu.vim
 source $VIMRUNTIME/menu.vim
+
+" 设置语言为中文
 language messages zh_CN.utf-8
 
 
