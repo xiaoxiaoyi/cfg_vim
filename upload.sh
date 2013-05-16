@@ -29,6 +29,7 @@ cat ~/.vimrc > ~/cfg_vim/vimrcs/vimrc.vim
 #git push -u origin master
 
 git add *
+git status
 git commit -m "auto upload"
 git push -u origin master
 
