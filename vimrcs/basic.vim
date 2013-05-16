@@ -209,7 +209,7 @@ vnoremap <silent> # :call VisualSelection('b', '')<CR>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Moving around, tabs, windows and buffers ,copy 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"goo  
+"mouse select and <f> to copy that  
 vmap <silent>f "+y<cr><esc>
 
 " Treat long lines as break lines (useful when moving around in them)

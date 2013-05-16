@@ -26,6 +26,9 @@
  Bundle 'git@github.com:mbbill/fencview.git'
 "Bundle 'git@github.com:Lokaltog/vim-powerline.git'
 
+"让vim支持octopress语法高亮
+ Bundle 'git@github.com:tangledhelix/vim-octopress.git'
+
  filetype plugin indent on     " required!
  "
  " Brief help
