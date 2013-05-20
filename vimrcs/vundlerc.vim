@@ -30,6 +30,10 @@
  Bundle 'git@github.com:tangledhelix/vim-octopress.git'
 "让vim支持vim语法高亮
  Bundle 'git@github.com:vim-scripts/xml.vim.git'
+"vimim输入法
+"Bundle 'git@github.com:vimim/vimim.git'
+"
+ Bundle 'git@github.com:plasticboy/vim-markdown.git'
 
  filetype plugin indent on     " required!
  "
