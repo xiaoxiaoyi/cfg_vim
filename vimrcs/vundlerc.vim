@@ -35,6 +35,9 @@
 "
  Bundle 'git@github.com:plasticboy/vim-markdown.git'
 
+"让vim支持markdown语法高亮
+ Bundle 'git@github.com:plasticboy/vim-markdown.git'
+
  filetype plugin indent on     " required!
  "
  " Brief help
