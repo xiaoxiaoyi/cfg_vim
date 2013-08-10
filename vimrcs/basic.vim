@@ -142,6 +142,9 @@ set background=dark
 if has("gui_running")
     set guioptions-=T
     set guioptions-=e
+    set guioptions-=m
+    set guioptions-=b
+    set guioptions-=s
     set t_Co=256
     set guitablabel=%M\ %t
 endif
@@ -366,6 +369,23 @@ map <leader>q :e ~/buffer<cr>
 " Toggle paste mode on and off
 map <leader>pp :setlocal paste!<cr>
 
+" is
+set is 
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Platform dependent settings
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+if (has("win32"))
+    if (has("gui_running"))
+        set guifont=Bitstream_Vera_Sans_Mono:h9:cANSI
+        set guifontwide=NSimSun:h9:cGB2312
+    endif
+else
+    if (has("gui_running"))
+        set guifont=Bitstream\ Vera\ Sans\ Mono\ 9
+    endif
+endif
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

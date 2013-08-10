@@ -38,6 +38,10 @@
 "让vim支持markdown语法高亮
  Bundle 'git@github.com:plasticboy/vim-markdown.git'
 
+"let vim vith c
+ Bundle 'git@github.com:xiaoxiaoyi/c.vim.git'
+
+
  filetype plugin indent on     " required!
  "
  " Brief help
