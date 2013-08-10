@@ -41,6 +41,9 @@
 "let vim vith c
  Bundle 'git@github.com:xiaoxiaoyi/c.vim.git'
 
+ "let vim with snipmate
+ Bundle 'git@github.com:xiaoxiaoyi/snipmate.vim.git'
+
 
  filetype plugin indent on     " required!
  "
