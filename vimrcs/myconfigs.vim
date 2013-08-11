@@ -8,15 +8,15 @@ map <c-i> :vsplit<cr><c-w>l
 "Gui选项
 "{{{
 if has("gui_running")
-set guioptions-=m " 关闭菜单栏
-set guioptions-=T " 关闭工具栏
-set guioptions-=l " 关闭左边滚动条
-set guioptions-=L " 关闭垂直分隔窗口左边滚动条
-set guioptions-=r " 关闭右边滚动条
-set guioptions-=R " 关闭垂直分隔窗口右边滚动条
-set guifont=Monospace:12 "在Linux下设置字体的命令是：
-set guicursor=a:blinkon0 "停止光标闪烁
-set shell=/bin/bash
+"set guioptions-=m " 关闭菜单栏
+"set guioptions-=T " 关闭工具栏
+"set guioptions-=l " 关闭左边滚动条
+"set guioptions-=L " 关闭垂直分隔窗口左边滚动条
+"set guioptions-=r " 关闭右边滚动条
+"set guioptions-=R " 关闭垂直分隔窗口右边滚动条
+"set guifont=Monospace:12 "在Linux下设置字体的命令是：
+"set guicursor=a:blinkon0 "停止光标闪烁
+"set shell=/bin/bash
 endif
 "}}}
 
@@ -32,3 +32,5 @@ endif
 "    \else <Bar>  
 "        \set guioptions+=m <Bar>  
 "    \endif<CR>  
+"
+au GUIEnter * simalt ~x
