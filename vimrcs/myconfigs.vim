@@ -3,7 +3,8 @@
 set dictionary+=~/cfg_vim/dictionary/engspchk.dict
 
 "<c-i>分割屏幕
-map <c-i> :vsplit<cr><c-w>l
+map <c-\> :vsplit<cr><c-w>l
+map <c-_> :split<cr><c-w>j
 
 "Gui选项
 "{{{
