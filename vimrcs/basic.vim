@@ -157,11 +157,15 @@ endif
 set encoding=utf8
 
 " fileencoding探测后自动识别
-"set fileencoding=cp936
-"
-" 编码的自动识别通过设置fileencodings实现
-"set fileencodings=gb2312,ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
+if has("win32")
+set fileencoding=cp936
 set fileencodings=cp936
+else 
+" 编码的自动识别通过设置fileencodings实现
+set fileencodings=gb2312,ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
+endif
+
+
 
 " Use Unix as the standard file type
 " set ffs=unix,dos,mac
